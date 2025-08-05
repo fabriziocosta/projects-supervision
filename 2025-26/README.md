@@ -1,4 +1,4 @@
-# 📚 Projects ECM3401  2025-26
+# 📚 Projects 2025-26
 
 Welcome to the official repository for **Projects** under module `ECM3401` for the academic year **2025-26**.
 
