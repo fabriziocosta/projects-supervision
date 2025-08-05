@@ -11,7 +11,6 @@ This system provides a **transparent, fair, and structured way** for students to
 The repository is organised by academic year:
 
 ```
-
 .
 ├── 2024-25/
 │   ├── README.md
@@ -21,8 +20,8 @@ The repository is organised by academic year:
 │   ├── README.md
 │   ├── projects/
 │   └── .github/
-└── README.md  ← (this file)
-
+├── status.md          ← Live project interest overview (auto-generated)
+└── README.md          ← (this file)
 ```
 
 Each year contains:
@@ -44,6 +43,21 @@ This repository is designed to:
 
 ---
 
+## 📈 Live Project Status
+
+To support transparency and prevent oversubscription, the repository includes an automatically updated summary of interest per project:
+
+👉 **[View project interest summary →](./status.md)**
+
+This file shows:
+- Number of students who applied to each project
+- Maximum number of students that can be supervised
+- Updates **hourly** via GitHub Actions based on issue labels
+
+Each time a student applies (using the GitHub issue form), the issue is tagged with a label like `project:smartplan-ai`, which feeds into this status table.
+
+---
+
 ## 🧑‍🎓 For Students
 
 1. Navigate to the folder for your academic year (e.g., [2025-26/](./2025-26/))
@@ -54,7 +68,6 @@ This repository is designed to:
 All applications and questions are **public**, allowing others to benefit from existing answers and ensuring fairness.
 
 ---
-
 
 ## 📬 Questions
 
