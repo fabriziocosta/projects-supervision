@@ -74,7 +74,8 @@ By applying **state-of-the-art NLP** in a **resource-conscious** and **context-a
 ---
 
 ## Apply or Ask Questions
-[📨 Click here to open an issue](https://github.com/fabriziocosta/projects-supervision/2025-26/issues/new?template=application.yml&title=Application:%20[Your%20Name]%20for%20docuclass-ai)
+[📨 Click here to open an issue](https://github.com/fabriziocosta/projects-supervision/issues/new?template=application.yml&title=Application:%20[Your%20Name]%20for%20docuclass-ai)
+
 
 ## Current Status
 🟢 Accepting interest — 0/5 students

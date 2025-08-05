@@ -83,7 +83,7 @@ The student will:
 ---
 
 ## Apply or Ask Questions
-[📨 Click here to open an issue](https://github.com/fabriziocosta/projects-supervision/2025-26/issues/new?template=application.yml&title=Application:%20[Your%20Name]%20for%20game-level)
+[📨 Click here to open an issue](https://github.com/fabriziocosta/projects-supervision/issues/new?template=application.yml&title=Application:%20[Your%20Name]%20for%20game-level)
 
 ## Current Status
 🟢 Accepting interest — 0/5 students
