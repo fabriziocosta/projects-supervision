@@ -1,5 +1,5 @@
 name: Project Application
-description: Apply to a project for CS5001 in 2025
+description: Apply to a project
 title: "Application: [Your Name] for [Project Name]"
 labels: [application]
 body:
@@ -7,6 +7,7 @@ body:
     id: name
     attributes:
       label: Full Name
+      description: "Your full legal name for identification."
     validations:
       required: true
 
@@ -14,13 +15,7 @@ body:
     id: email
     attributes:
       label: Email
-    validations:
-      required: true
-
-  - type: input
-    id: project
-    attributes:
-      label: Project Name (copy from the project page)
+      description: "Your university email address."
     validations:
       required: true
 
@@ -28,6 +23,9 @@ body:
     id: motivation
     attributes:
       label: Why are you interested in this project?
+      description: |
+        Explain why you chose this project. Is it the topic, method, or relevance to your future goals?
+        Mention academic, personal, or career motivations. Be specific.
     validations:
       required: true
 
@@ -35,6 +33,9 @@ body:
     id: background
     attributes:
       label: Relevant background
+      description: |
+        Briefly describe coursework, tools, or experience that prepare you for this project.
+        Include relevant modules, coding tools, research experience, or domain knowledge.
     validations:
       required: true
 
@@ -42,6 +43,9 @@ body:
     id: question
     attributes:
       label: Questions (optional)
+      description: |
+        Use this space to ask about project scope, expectations, datasets, etc.
+        All questions and answers will be public to benefit others.
 
   - type: checkboxes
     id: consent
