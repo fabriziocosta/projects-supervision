@@ -16,8 +16,8 @@ Supervisor: **Dr. Fabrizio Costa**
 
 ## 📂 Available Projects
 
-| Title                            | Interest | Link |
-|----------------------------------|----------|------|
-| DocuClassAI: Lightweight Language Models for Intelligent Planning Document Classification                | 🟢 0/5    | [View](projects/docuclass-ai.md) |
-| Learning to Generate Game Levels via Bayesian Optimisation of Simulated Player Engagement | 🟢 0/5    | [View](projects/game-level.md) |
-| SmartPlanAI: Automating Visual Validation of Planning Documents with Deep Learning | 🟢 0/5    | [View](projects/smartplan-ai.md) |
+| Title                            | Link |
+|----------------------------------|------|
+| DocuClassAI: Lightweight Language Models for Intelligent Planning Document Classification                | [View](projects/docuclass-ai.md) |
+| Learning to Generate Game Levels via Bayesian Optimisation of Simulated Player Engagement | [View](projects/game-level.md) |
+| SmartPlanAI: Automating Visual Validation of Planning Documents with Deep Learning | [View](projects/smartplan-ai.md) |
