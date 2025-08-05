@@ -7,7 +7,7 @@ body:
     id: name
     attributes:
       label: Full Name
-      description: "Your full legal name for identification."
+      description: "Your full name for identification."
     validations:
       required: true
 
