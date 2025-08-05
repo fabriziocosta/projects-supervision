@@ -1,0 +1,52 @@
+name: Project Application
+description: Apply to a project for CS5001 in 2025
+title: "Application: [Your Name] for [Project Name]"
+labels: [application]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Full Name
+    validations:
+      required: true
+
+  - type: input
+    id: email
+    attributes:
+      label: Email
+    validations:
+      required: true
+
+  - type: input
+    id: project
+    attributes:
+      label: Project Name (copy from the project page)
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why are you interested in this project?
+    validations:
+      required: true
+
+  - type: textarea
+    id: background
+    attributes:
+      label: Relevant background
+    validations:
+      required: true
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Questions (optional)
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I understand this is a public submission and not a guarantee of acceptance
+          required: true
