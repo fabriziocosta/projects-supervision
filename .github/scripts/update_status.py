@@ -1,6 +1,7 @@
 import requests
 import os
 from collections import defaultdict
+from datetime import datetime
 
 REPO = "fabriziocosta/projects-supervision"
 LABEL_PREFIX = "project:"
@@ -37,8 +38,11 @@ def count_by_project(issues):
     return counts
 
 def update_status_md(counts):
+    timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
+
     with open("status.md", "w") as f:
         f.write("# 📊 Project Interest Status\n\n")
+        f.write(f"Last updated: **{timestamp}**\n\n")
         f.write("| Project | Interested Students | Max Allowed |\n")
         f.write("|---------|---------------------|-------------|\n")
         for project, count in sorted(counts.items()):
