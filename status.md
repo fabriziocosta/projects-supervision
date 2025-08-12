@@ -1,6 +1,8 @@
 # 📊 Project Interest Status
 
-Last updated: **2025-08-12 15:13 UTC**
+Last updated: **2025-08-12 16:15 UTC**
 
 | Project | Interested Students | Max Allowed |
 |---------|---------------------|-------------|
+| docuclass-ai | 2 | 3 |
+| smartplan-ai | 1 | 3 |
