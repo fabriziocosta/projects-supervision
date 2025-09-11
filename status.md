@@ -1,9 +1,9 @@
 # 📊 Project Interest Status
 
-Last updated: **2025-09-11 16:13 UTC**
+Last updated: **2025-09-11 17:09 UTC**
 
 | Project | Interested Students | Max Allowed |
 |---------|---------------------|-------------|
 | docuclass-ai | 2 | 3 |
-| game-level | 4 | 3 |
+| game-level | 7 | 3 |
 | smartplan-ai | 2 | 3 |
